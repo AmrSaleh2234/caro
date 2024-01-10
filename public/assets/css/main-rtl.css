@@ -1,0 +1,92 @@
+.main-sidebar {
+  right: 0 !important;
+  left: auto;
+}
+.main-content {
+  margin-left: 0;
+  margin-right: 110px;
+}
+.navbar-left {
+  float: left !important;
+}
+.user-avatar img {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.user-icons {
+  margin-left: 80px;
+  margin-right: 0;
+}
+.icon-eye {
+  right: auto;
+  left: 21px;
+}
+.form-group select {
+  background-position: right 0 top 50%, 0 0;
+  background-position: left 0.7em top 50%, 0 0;
+}
+.accordion .btn-link {
+  text-align: right !important;
+}
+.customer-numbers {
+  float: left !important;
+}
+.chat-status,
+.message-text {
+  margin-left: 0;
+  margin-right: 40px;
+}
+.recipient .message-text {
+  margin-right: 0;
+  margin-left: 40px;
+}
+.chat-input-holder a {
+  right: auto;
+  left: 85px;
+}
+.chat-input {
+  margin-left: 15px;
+  margin-right: 0;
+}
+.modal-body .form-control {
+  border-radius: 14px !important;
+  -webkit-border-radius: 14px !important;
+  -moz-border-radius: 14px !important;
+  -ms-border-radius: 14px !important;
+  -o-border-radius: 14px !important;
+}
+.input-group-append > .input-group-text {
+  border-radius: 14px !important;
+  -webkit-border-radius: 14px !important;
+  -moz-border-radius: 14px !important;
+  -ms-border-radius: 14px !important;
+  -o-border-radius: 14px !important;
+  position: relative;
+  left: 38px;
+}
+.form-group .btn-save-change {
+  right: auto;
+  left: 0;
+}
+.modal-body .person-details-title {
+  margin-right: 0;
+  margin-left: 100px;
+}
+.list-checkbox {
+  border-right: 0;
+  border-left: 1px solid #c2c2c2;
+  padding-left: 50px !important;
+  padding-right: 0px;
+}
+.btn-order {
+  float: left !important;
+}
+.status-btn{
+  margin-left: 0;
+  margin-right: auto !important;
+}
+.btn-delete i{
+  left: 50px;
+  right: auto;
+
+}

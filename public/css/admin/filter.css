@@ -1,0 +1,79 @@
+.select_area {
+    display: block;
+    max-height: 1000px;
+    padding: 0;
+}
+
+.select_area .field_delete {
+    display: block !important;
+    z-index: 9999;
+    cursor: pointer;
+    padding: 10px;
+    line-height: 0px;
+}
+
+.field_list {
+    display: block;
+    padding: 0;
+    color: #000;
+    background: #eeeeee;
+    list-style: none;
+    max-height: 1000px;
+    overflow-y: auto;
+    border: 1px #ccc solid;
+}
+
+.select_area {
+    min-height: 100px;
+}
+
+.search_field {
+    margin-bottom: 20px;
+}
+
+.field_list li {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 0;
+    border: 1px solid #cccccc;
+    color: #0088cc;
+    background: #fff;
+}
+
+.select_area li {
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #cccccc;
+    margin: 0;
+}
+
+.field_list li:hover,
+.select_area li:hover {
+    background: #dd4b39;
+    cursor: move;
+    color: #fff;
+}
+
+body.dragging,
+body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+    background: #dd4b39 !important;
+    border: 1px #ccc solid;
+}
+
+.field_list li.placeholder {
+    position: relative;
+}
+
+.field_list li.placeholder:before {
+    position: absolute;
+}

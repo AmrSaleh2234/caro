@@ -1,0 +1,98 @@
+body {
+    width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    direction: rtl;
+    border: 2px solid #ddcdba;
+    position: relative;
+}
+
+div.elem-group {
+    margin: 20px 0;
+}
+
+div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: right;
+}
+
+label {
+    display: block;
+    font-size: 1.25em;
+    width: 25%;
+}
+
+input {
+    border-radius: 2px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: "Nanum Gothic";
+    width: 100%;
+    padding: 10px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+    text-align: right;
+}
+
+.header-table,
+.footer-table {
+    text-align: center;
+}
+
+.header-table img {
+    max-width: 150px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.box-contanier {
+    display: flex;
+    align-items: center;
+}
+
+.footer-table {
+    margin-top: 30px;
+    padding: 15px 15px 30px 15px;
+    background-color: #6e6357;
+    color: #ffffff;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;*/
+}
+
+.footer-table span {
+    font-size: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info i,
+.footer-table h4 i {
+    margin-left: 10px;
+}
+
+.bg-image img {
+    width: 100%;
+    top: 90px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}

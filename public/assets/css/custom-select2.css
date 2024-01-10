@@ -1,0 +1,38 @@
+.select2-container .select2-selection--single .select2-selection__rendered {
+	height: 43px;
+	font-size: 16px;
+	line-height: 43px;
+	text-align: right;
+	padding: 0 30px;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	border: 1px solid #004693;
+}
+.select2-container .select2-selection--single {
+	height: 43px;
+	border: none;
+}
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow
+b {
+	border: none;
+
+	background: transparent;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACrSURBVHgBndKxDcIwEIXh32YBRgAWYAUKkgKGgAGICBMklJQQehgBGpCAASiZIDN4gpgzQqKBxOYVlqw7f7LOVkSbKUr3ucwW/JO4yKms0VjaYFOi7Y7QxMVe1gylbIvyfKc7Ak1Kb9yhPB0DkAkVObdk9SkMi0yK1utmDnG97szX+GCNiA/mjdRhDYiqxbQMEh7SZeR1B+/BLsMgl9cfU3NBjOwOXJP1r9YnXppMhkVUYLoAAAAASUVORK5CYII=") !important;
+	background-repeat: no-repeat;
+	background-position: center right;
+	width: 47px;
+	height: 35px;
+	background-position: left 0px top -4%, 0 0;
+
+}
+.select2-container--default
+.select2-selection--single
+.select2-selection__arrow {
+	left: 32px;
+	top: 9px;
+}

@@ -1,0 +1,140 @@
+header,
+.main-sidebar {
+    z-index: 999;
+}
+
+ul.breadcrumb li {
+    color: #004693;
+}
+
+a {
+    transition: all 200ms ease-in-out;
+    color: #004693;
+}
+
+.modal-content h6 {
+    border: 0;
+    font-weight: 700;
+    color: #004693;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.login-settings {
+    max-width: 650px;
+}
+
+.login-settings h2 {
+    color: #004693 !important;
+}
+
+.setting-list .icon-edit:before {
+    color: #A7A7A7;
+}
+
+.setting-list .icon-arrow-left:before {
+    color: #004693;
+}
+
+.setting-list .icon-trash:before {
+    color: #ff0000;
+}
+
+.nav-tabs .nav-link {
+    min-width: 250px;
+}
+
+.employee-data .nav-tabs .nav-link {
+    min-width: 100px;
+}
+
+.employee-data-lg .btn-main {
+    padding: 0;
+}
+
+.table-style tbody td {
+    padding: 15px 10px;
+    vertical-align: none;
+}
+
+.user-image {
+    padding-top: 0;
+}
+
+.employee-setting-new {
+    top: -133px;
+}
+
+.emmployee-menu {
+    left: 60px;
+}
+
+.notifi-draft-count {
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 6px;
+}
+
+.branch-setting h4 {
+    font-size: 20px;
+    color: #004693;
+    margin-top: 5px;
+}
+
+.buttons-area .btn-main:first-child {
+    margin-left: 50px;
+}
+
+.create-administration .section .add-icon {
+    outline: none;
+    background-color: #d0dce9;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    padding: 0.8em 2em;
+    outline: none;
+    border: none;
+    border-radius: 0.8em;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.add-depermnrt-item {
+    background-color: #D0DCE9;
+    border: 1px solid #D0DCE9;
+    color: #004693;
+}
+
+.add-depermnrt-item i:before {
+    color: #004693;
+}
+
+@media (max-width: 768px) {
+    .employee-setting {
+        top: 77px;
+    }
+    .employee-setting-new {
+        top: -199px;
+    }
+}
+
+@media (min-width: 992px) {
+    .employee-data-lg {
+        max-width: 1200px;
+    }
+}
+
+@-moz-document url-prefix() {
+    span.round-tab {
+        top: 0;
+    }
+}
