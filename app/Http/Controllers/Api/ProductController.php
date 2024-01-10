@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Http\Requests\StoreProductRequest;
+use App\Http\Resources\StoreProductResource;
 use App\Models\CarModel;
 use App\Models\Polish;
 use App\Models\Service;
@@ -35,7 +37,7 @@ class ProductController extends ApiHomeController
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreProductRequest $request)
     {
 
         return $this->successResponse();
